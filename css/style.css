@@ -3639,3 +3639,187 @@ html {
     width: 100%;
     text-transform: uppercase
 }
+
+.advantages {
+    font-family: "Gilroy Light"
+}
+
+.advantages__heading {
+    display: block;
+    font-family: "Gilroy Bold";
+    font-weight: 800;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 80px
+}
+
+.advantages__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 80px 0
+}
+
+.advantages__card {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    height: 218px;
+    padding: 47px 35px 35px;
+    background: #fff;
+    -webkit-box-shadow: 10px 4px 40px rgba(0, 0, 0, .08);
+    box-shadow: 10px 4px 40px rgba(0, 0, 0, .08)
+}
+
+.advantages__card-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.advantages__card-descr {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    text-align: center
+}
+
+.advantages__card--light {
+    background: #ECF0F6
+}
+
+.advantages__card--orange {
+    background: #FF6B00
+}
+
+.advantages__card--white {
+    background: #fff
+}
+
+.advantages__card--sky {
+    background: #CEEFFF
+}
+
+@media (max-width:992px) {
+    .advantages__inner {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .advantages__card {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 35%;
+        flex: 0 0 35%
+    }
+}
+
+@media (max-width:768px) {
+    .advantages__card {
+        width: 50%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%
+    }
+}
+
+@media (max-width:420px) {
+    .advantages__card {
+        height: 187px
+    }
+    .advantages__card-descr {
+        font-size: 1.4rem
+    }
+    .advantages__inner {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .advantages__card {
+        padding: 35px 15px 15px
+    }
+}
+
+.content-area {
+    font-family: Montserrat;
+    padding: 60px 0
+}
+
+.content-area h1,
+.content-area h2,
+.content-area h3,
+.content-area h4,
+.content-area h5,
+.content-area h6 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px
+}
+
+.content-area p {
+    font-size: 15px;
+    line-height: 28px
+}
+
+.feedback {
+    font-family: "Gilroy Light";
+    background: #F0F3F7
+}
+
+.feedback__title {
+    font-family: "Gilroy Bold";
+    font-weight: 800;
+    font-size: 44px;
+    padding-top: 50px;
+    margin-bottom: 50px
+}
+
+.feedback__card {
+    padding: 36px;
+    background: #FFF;
+    -webkit-box-shadow: 10px 4px 40px rgba(0, 0, 0, .08);
+    box-shadow: 10px 4px 40px rgba(0, 0, 0, .08)
+}
+
+.feedback__card-author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.feedback__card-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 15px
+}
+
+.feedback__card-name {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px
+}
+
+.feedback__card-picture {
+    -ms-flex-negative: 0;
+    flex-shrink: 0
+}
+
+.feedback__card-date {
+    color: #0085FF
+}
+
+.feedback__card-review {
+    font-size: 13px;
+    line-height: 24px
+}
