@@ -14,7 +14,7 @@
 
         <div class="page-header__top">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row no-gutters align-items-center">
                     <div class="page-header__location">
                         <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -44,7 +44,7 @@
         </div>
         <div class="page-header__bottom">
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row no-gutters align-items-center">
 
                     <button class="burger main-nav__toggler" aria-label="Показать главное меню" data-target-id="nav" data-target-class-toggle="main-nav--open">
               <span>Показать главное меню</span>
@@ -89,23 +89,8 @@
           <span class="btn__txt">Бесплатная консультация</span>
         </button>
                 </div>
-                <div class="col-lg-7">
-                    <div class="hero__slider">
-                        <div class="swiper-container">
-                            <!-- Additional required wrapper -->
-                            <div class="swiper-wrapper">
-                                <!-- Slides -->
-                                <div class="swiper-slide">
-                                    <img src="./img/slider-1.png" alt="" class="hero__slider-img">
-                                </div>
-                                <div class="swiper-slide">Slide 2</div>
-                                <div class="swiper-slide">Slide 3</div>
-                                ...
-                            </div>
-                            <!-- If we need pagination -->
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
+                <div class="col-lg-7 position-static">
+                    <div class="hero__img"></div>
                 </div>
             </div>
             <h1 class="title hero__title">H1 заголовок для страницы</h1>
@@ -113,12 +98,12 @@
     </div>
     <div class="collection">
         <div class="container">
-            <span class="collection__heading">Коллекции</span>
+            <h3 class="collection__heading">Коллекции</h3>
             <div class="collection__list">
                 <div class="row no-gutters">
                     <div class="col-lg-3 col-6">
                         <article class="collection__card collection__card--standart">
-                            <h2 class="collection__card-name">Standart</h2>
+                            <h3 class="collection__card-name">Standart</h3>
                             <div class="collection__card-info">
                                 <span class="collection__card-producer">Kaleva</span>
                                 <span class="collection__card-price">от 9 500 р.</span>
@@ -127,7 +112,7 @@
                     </div>
                     <div class="col-lg-3 col-6">
                         <article class="collection__card collection__card--vita">
-                            <h2 class="collection__card-name">Vita</h2>
+                            <h3 class="collection__card-name">Vita</h3>
                             <div class="collection__card-info">
                                 <span class="collection__card-producer">Kaleva</span>
                                 <span class="collection__card-price">от 9 500 р.</span>
@@ -136,7 +121,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <article class="collection__card  collection__card--space">
-                            <h2 class="collection__card-name">Space</h2>
+                            <h3 class="collection__card-name">Space</h3>
                             <div class="collection__card-info">
                                 <span class="collection__card-producer">Kaleva</span>
                                 <span class="collection__card-price">от 9 500 р.</span>
@@ -146,7 +131,7 @@
 
                     <div class="col-lg-6 col-12">
                         <article class="collection__card collection__card--vario">
-                            <h2 class="collection__card-name">Vario</h2>
+                            <h3 class="collection__card-name">Vario</h3>
                             <div class="collection__card-info">
                                 <span class="collection__card-producer">Kaleva</span>
                                 <span class="collection__card-price">от 9 500 р.</span>
@@ -155,7 +140,7 @@
                     </div>
                     <div class="col-lg-3 col-6">
                         <article class="collection__card collection__card--deco">
-                            <h2 class="collection__card-name">Deco </h2>
+                            <h3 class="collection__card-name">Deco </h3>
                             <div class="collection__card-info">
                                 <span class="collection__card-producer">Kaleva</span>
                                 <span class="collection__card-price">от 9 500 р.</span>
@@ -164,7 +149,7 @@
                     </div>
                     <div class="col-lg-3 col-6">
                         <article class="collection__card collection__card--design">
-                            <h2 class="collection__card-name">Design</h2>
+                            <h3 class="collection__card-name">Design</h3>
                             <div class="collection__card-info">
                                 <span class="collection__card-producer">Kaleva</span>
                                 <span class="collection__card-price">от 9 500 р.</span>
@@ -307,7 +292,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <p class="callback__title">Закажите замер прямо сейчас!</p>
+                    <h3 class="callback__title">Закажите замер прямо сейчас!</h3>
                     <form class="form">
                         <label for="">
             <input class="form__input" type="text" placeholder="Ваше имя"/>
@@ -326,7 +311,7 @@
     </div>
     <section class="advantages">
         <div class="container">
-            <span class="advantages__heading">Преимущества</span>
+            <h3 class="advantages__heading">Преимущества</h3>
             <div class="advantages__inner">
 
                 <div class="advantages__card advantages__card--white">
@@ -379,7 +364,7 @@
     </section>
     <section class="content-area">
         <div class="container">
-            <h5>SEO тексты</h5>
+            <h3>SEO тексты</h3>
             <p>Продукция бренда Apple известна качеством и надёжностью. Покупая ее, человек награждает себя стильной и современной техникой, которая будет актуальной еще несколько лет. Но радость владения технологичными гаджетами часто омрачается расходами
                 на приобретение. Многие магазины, расположенные в СПб и окрестностях, завышают цены на iPhone, из-за чего покупка стает просто не выгодна.</p>
 
@@ -387,7 +372,7 @@
             <p>Интернет-магазин retailapple.ru идёт навстречу клиенту, предлагая лучшую продукцию по привлекательной цене. У нас вы сможете дёшево подобрать подарок для близкого человека. Мы продаем окна на 10-15% дешевле, чем известные сети магазинов, а
                 с нашими акциями и дисконтной программой выгода от покупки становится очевидна.</p>
 
-            <h5>Каждый клиент получает:</h5>
+            <h3>Каждый клиент получает:</h3>
             <ul>
                 <li>Бесплатную доставку айфонов по СПб за 3 часа до двери</li>
                 <li>Год гарантии на каждое приобретенное устройство</li>
@@ -398,7 +383,7 @@
     </section>
     <div class="feedback">
         <div class="container">
-            <h6 class="feedback__title">Отзывы</h6>
+            <h3 class="feedback__title">Отзывы</h3>
             <!-- Swiper -->
             <div class="swiper-container swiper-review">
                 <div class="swiper-wrapper">
@@ -449,6 +434,83 @@
 
         </div>
     </div>
+    <div class="contacts">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106279.25540820448!2d30.27507656579003!3d59.89953662185796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963ac34a51b0ef%3A0x4eb3845666d79ec0!2z0L_RgNC-0YHQvy4g0J3QsNGA0L7QtNC90L7Qs9C-INCe0L_QvtC70YfQtdC90LjRjywgMjIsIDIxMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjywgMTk4MjE2!5e0!3m2!1sru!2sua!4v1575890103526!5m2!1sru!2sua"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row justify-content-between accordeon">
+                <div class="col-lg-2">
+                    <ul class="page-footer__list accordeon__item">
+                        <span class="page-footer__title">Компания</span>
+                        <li class="page-footer__list-item">Главная
+                        </li>
+                        <li class="page-footer__list-item">О нас</li>
+                        <li class="page-footer__list-item">Новости</li>
+                        <li class="page-footer__list-item">Распродажа</li>
+                        <li class="page-footer__list-item">Оплата и доставка</li>
+                        <li class="page-footer__list-item">Отзывы</li>
+                        <li class="page-footer__list-item">Контакты</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2">
+                    <ul class="page-footer__list accordeon__item">
+                        <span class="page-footer__title">Окна</span>
+                        <li class="page-footer__list-item">ПВХ</li>
+                        <li class="page-footer__list-item">Деревянные окна</li>
+                        <li class="page-footer__list-item">Мансардные</li>
+                        <li class="page-footer__list-item">Цветные окна</li>
+                        <li class="page-footer__list-item">Для дачи и дома</li>
+                        <li class="page-footer__list-item">Умные окна</li>
+                        <li class="page-footer__list-item">Витражные</li>
+                        <li class="page-footer__list-item">Нестандартные</li>
+                        <li class="page-footer__list-item"><a href="" class="page-footer__list-more">Смотреть все</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2">
+                    <ul class="page-footer__list accordeon__item">
+                        <span class="page-footer__title">Коллекции</span>
+                        <li class="page-footer__list-item">Kaleva Standart</li>
+                        <li class="page-footer__list-item">Kaleva Design</li>
+                        <li class="page-footer__list-item">Kaleva Design Plus</li>
+                        <li class="page-footer__list-item">Цветные окна</li>
+                        <li class="page-footer__list-item">Для дачи и дома</li>
+                        <li class="page-footer__list-item">Kaleva Deco</li>
+                        <li class="page-footer__list-item">Kaleva Titan</li>
+                        <li class="page-footer__list-item">Kaleva Titan Plus</li>
+                        <li class="page-footer__list-item">Kaleva Vario</li>
+                        <li class="page-footer__list-item">Kaleva Space</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <span class="page-footer__title">Контакты</span>
+                    <div class="d-flex align-items-center">
+                        <svg class="flex-shrink-0" width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.99973 0C2.75201 0 0.109497 2.64251 0.109497 5.89056C0.109497 6.73777 0.282903 7.54667 0.624638 8.29499C2.09736 11.5176 4.92098 14.9201 5.75149 15.886C5.81371 15.9582 5.90443 15.9998 5.99989 15.9998C6.09535 15.9998 6.18607 15.9582 6.24829 15.886C7.07848 14.9203 9.90209 11.518 11.3753 8.29499C11.7172 7.54667 11.8904 6.73777 11.8904 5.89056C11.8901 2.64251 9.24761 0 5.99973 0ZM5.99973 8.95013C4.31266 8.95013 2.93999 7.57746 2.93999 5.89039C2.93999 4.20317 4.31266 2.83049 5.99973 2.83049C7.68679 2.83049 9.05946 4.20317 9.05946 5.89039C9.05963 7.57746 7.68695 8.95013 5.99973 8.95013Z" fill="#C4C4C4"/>
+          </svg>
+                        <span class="page-footer__location">Санкт-Петербург, пр. Народного <br> Ополчения, д. 22, оф. 211</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <svg class="flex-shrink-0" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.6413 12.6447L13.1703 10.1734C12.6782 9.68326 11.8631 9.69815 11.3538 10.2076L10.1089 11.4522C10.0303 11.4089 9.94889 11.3636 9.8633 11.3156C9.07717 10.88 8.00123 10.283 6.86902 9.14995C5.73345 8.01452 5.13589 6.93692 4.69897 6.15029C4.65287 6.06695 4.60869 5.9866 4.56507 5.9103L5.40056 5.07605L5.81132 4.66478C6.32142 4.15455 6.33548 3.33974 5.84446 2.84813L3.37352 0.376627C2.8825 -0.114299 2.0671 -0.099406 1.557 0.410826L0.860606 1.11122L0.879637 1.13012C0.646125 1.42807 0.450996 1.77172 0.305787 2.1423C0.171932 2.49505 0.088594 2.83167 0.0504875 3.16897C-0.275785 5.87385 0.960262 8.3459 4.31474 11.7004C8.95164 16.337 12.6884 15.9867 12.8496 15.9696C13.2007 15.9277 13.5371 15.8438 13.8791 15.711C14.2465 15.5675 14.5899 15.3726 14.8876 15.1396L14.9029 15.1531L15.6084 14.4623C16.1174 13.9522 16.1321 13.1371 15.6413 12.6447Z" fill="#C4C4C4"/>
+          </svg>
+                        <span class="page-footer__phone">8 812 655 61 56</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-footer__copy-block">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <span>© Orientall, 2019</span>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="./scripts/app.js"></script>
 </body>
 
