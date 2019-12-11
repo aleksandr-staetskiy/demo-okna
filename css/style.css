@@ -3215,6 +3215,20 @@ html {
     background: #FF6B00
 }
 
+.hero__form {
+    max-width: 330px;
+    margin-top: 40px
+}
+
+.hero__input {
+    border: 1px solid #E5E5E5!important
+}
+
+.hero__checkbox {
+    color: inherit!important;
+    font-size: 12px
+}
+
 .hero__list {
     margin-top: 60px;
     font-family: 'Gilroy Light';
@@ -3295,6 +3309,9 @@ html {
         font-size: 40px;
         line-height: 49px;
         margin-top: 20px
+    }
+    .hero__img--collections {
+        background-size: 100%!important
     }
 }
 
@@ -3579,7 +3596,9 @@ html {
 }
 
 .advantages {
-    font-family: "Gilroy Light"
+    font-family: "Gilroy Light";
+    padding: 30px;
+    background: #F0F3F7
 }
 
 .advantages__heading {
@@ -3761,6 +3780,115 @@ html {
 .feedback__card-review {
     font-size: 13px;
     line-height: 24px
+}
+
+.collection-price {
+    font-family: "Gilroy Bold";
+    background: #F0F3F7;
+    padding: 80px 0
+}
+
+.collection-price__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 54px
+}
+
+.collection-price__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    background: #FFF;
+    -webkit-box-shadow: 10px 4px 40px rgba(0, 0, 0, .08);
+    box-shadow: 10px 4px 40px rgba(0, 0, 0, .08);
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease
+}
+
+.collection-price__card-img {
+    margin: 0 auto;
+    height: 218px;
+    width: 215px
+}
+
+.collection-price__card-img img {
+    padding: 20px;
+    border-radius: 50%
+}
+
+.collection-price__card-name {
+    margin-bottom: 0
+}
+
+.collection-price__card-descr {
+    font-family: "Gilroy Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0;
+    margin: 0
+}
+
+.collection-price__card-price {
+    margin-top: 30px;
+    font-size: 21px;
+    line-height: 26px
+}
+
+.collection-price__card:hover {
+    background: #0085FF;
+    color: #fff!important
+}
+
+@media (max-width:412px) {
+    .collection-price__title {
+        font-size: 32px;
+        line-height: 39px
+    }
+    .collection-price__card {
+        margin-top: 15px
+    }
+}
+
+.mailing {
+    background: url(../img/mailing.jpg) 0 0/cover;
+    height: 550px
+}
+
+.mailing__title {
+    color: #fff;
+    margin-top: 100px;
+    font-family: "Gilroy Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 15px
+}
+
+.mailing__offer {
+    color: #fff;
+    font-family: "Gilroy Light";
+    font-size: 16px;
+    line-height: 28px
+}
+
+@media (max-width:412px) {
+    .mailing__title {
+        font-size: 32px;
+        line-height: 39px
+    }
 }
 
 .page-footer {
